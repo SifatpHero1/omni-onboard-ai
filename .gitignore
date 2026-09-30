@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+ENV/
+
+# Environment Variables (সিক্রেট কি কখনো আপলোড করবেন না)
+.env
+.env.local
+
+# Logs and Database
+logs/
+*.log
+data/*.db
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
